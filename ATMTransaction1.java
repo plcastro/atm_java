@@ -2,13 +2,13 @@ import java.util.*;
 
 public class ATMTransaction1 {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-        String pin, option;
+	Scanner sc = new Scanner(System.in);
+        	String pin, option;
 		double balance = 1000;
 		double input;
 		
 		System.out.println("\n================================");
-        System.out.println("Welcome to Online Banking!");
+        	System.out.println("Welcome to Online Banking!");
 		System.out.println("Enter Pin:");
 		pin = sc.nextLine();
 		
