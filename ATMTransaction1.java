@@ -13,7 +13,7 @@ public class ATMTransaction1 {
 		pin = sc.nextLine();
 		
 		if (pin.equals("123456")){
-	        System.out.println("Transaction available: \n[W] Withdraw \n[D] Deposit \n[C] Check Balance");
+	        System.out.println("Transaction available: \n[W] - Withdraw \n[D] - Deposit \n[C] - Check Balance");
 	        System.out.println("Choose Transaction: ");
 	        option = sc.nextLine().toUpperCase(); 
 			
